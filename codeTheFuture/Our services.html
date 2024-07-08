@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style type="text/css">
+        body, ul {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: #2f04a6; 
+            overflow: hidden;
+            text-align: right;
+            margin-top: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            text-align: right; 
+        }
+
+        .navbar ul li {
+            display: inline-block;   
+        }
+
+        .navbar ul li a {
+            display: inline-block;
+            padding: 10px; 
+            text-decoration: none;
+            color: white; 
+            font-family: Arial, sans-serif; 
+        }
+
+        .navbar ul li a:hover {
+            background-color: #555; 
+        }
+
+        .logo {
+            width: 120px; 
+            height: auto; 
+            float: left; 
+            margin-right: 20px; 
+        }
+
+        .logo-container {
+            overflow: auto; 
+            display: flex; 
+            align-items: center; 
+        }
+
+        .logo-text {
+            flex-grow: 1; 
+        }
+
+        .register-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+        }
+
+        .landing {
+            background-color: #f0f0f0;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .landing h2 {
+            color: #333;
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        .landing p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .landing .action-button {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2f04a6;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .landing .action-button:hover {
+            background-color: #555;
+        }
+
+        h1 {
+            color: blue;
+            margin: 0; 
+        }
+
+        h2 {
+            color: blue;
+            margin-top: 0; 
+            font-size: 24px; 
+        }
+
+        .content-section {
+        background-color: #f9f9f9;
+        padding: 40px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+
+        .content-section h2 {
+         color: #333;
+         font-size: 28px;
+         margin-top: 0;
+         margin-bottom: 20px;
+        }
+
+        .content-section h3 {
+         color: #2f04a6;
+         font-size: 24px;
+         margin-top: 30px;
+        }
+
+        .content-section ul {
+          margin-top: 10px;
+        }
+
+       .content-section li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+       }
+       body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative; /* Ensure relative positioning for absolute image */
+        }
+
+        .card img {
+            position: absolute;
+            top: 20px; /* Adjust as necessary */
+            right: 20px; /* Adjust as necessary */
+            max-width: 170px; /* Limit the width of the image */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-content {
+            margin-right: 180px; /* Ensure content doesn't overlap with image */
+        }
+
+        .card h3 {
+            color: #2f04a6;
+        }
+        h3 {
+            color: #2f04a6;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        h4{  
+            color: #2f04a6;
+            text-align: center;
+            font-size: 20px;
+        }
+
+
+        .card p {
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            list-style-type: disc;
+            margin-bottom: 5px;
+        }
+
+        .highlight {
+            background-color: #2f04a6;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+
+       
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-text">
+                <img src="./Testbaby1.png" alt="Software as a service" class="logo">
+                <h1>TestRite</h1>
+                <p>Innovation & Technology</p>
+            </div>
+            <a href="Register.html" class="register-button">Register</a>
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about Us.html">About</a></li>
+                <li><a href="Our services.html">Services</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div class="container">
+            <h3>Our Services</h1>
+            
+            <div class="card">
+                <img src="consultation.jpg" alt="Consultation Services">
+                <div class="card-content">
+                    <h4>Consultation Services</h4>
+                    <p>Our expert consultants provide tailored solutions to meet your company's QA engineering needs.</p>
+                    <ul>
+                        <li>Establishing robust QA processes</li>
+                        <li>Optimizing existing frameworks</li>
+                        <li>Strategy development and implementation</li>
+                        <li>QA project management</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="training.jpg" alt="Training Programs">
+                <div class="card-content">
+                    <h4>Training Programs</h4>
+                    <p>Equip your team with the latest QA methodologies and best practices through our
+                     comprehensive training programs.</p>
+                    <ul>
+                        <li>Software testing fundamentals</li>
+                        <li>Test automation training</li>
+                        <li>Performance testing strategies</li>
+                        <li>Security testing techniques</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="community.jpg" alt="Community Engagement">
+                <div class="card-content">
+                    <h4>Community Engagement</h4>
+                    <p>We foster a community of QA professionals to share knowledge, insights, and best practices.</p>
+                    <ul>
+                        <li>Networking opportunities</li>
+                        <li>Webinars and workshops</li>
+                        <li>QA industry updates</li>
+                        <li>Collaborative learning</li>
+                    </ul>
+                </div>
+            </div>
+          <p class="highlight">Contact us today to learn more about how TestRite Consultancy can support your QA initiatives!</p>
+        </div>
+    </body>
+    </html>

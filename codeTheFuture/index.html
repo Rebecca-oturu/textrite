@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style type="text/css">
+        body, ul {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: #2f04a6; 
+            overflow: hidden;
+            text-align: right;
+            margin-top: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            text-align: right; 
+        }
+
+        .navbar ul li {
+            display: inline-block;   
+        }
+
+        .navbar ul li a {
+            display: inline-block;
+            padding: 10px; 
+            text-decoration: none;
+            color: white; 
+            font-family: Arial, sans-serif; 
+        }
+
+        .navbar ul li a:hover {
+            background-color: #555; 
+        }
+
+        .logo {
+            width: 120px; 
+            height: auto; 
+            float: left; 
+            margin-right: 20px; 
+        }
+
+        .logo-container {
+            overflow: auto; 
+            display: flex; 
+            align-items: center; 
+        }
+
+        .logo-text {
+            flex-grow: 1; 
+        }
+
+        .register-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+        }
+
+        .landing {
+            background-color: #f0f0f0;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .landing h2 {
+            color: #333;
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        .landing p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .landing .action-button {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2f04a6;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .landing .action-button:hover {
+            background-color: #555;
+        }
+
+        h1 {
+            color: blue;
+            margin: 0; 
+        }
+
+        h2 {
+            color: aqua;
+            margin-top: 0; 
+            font-size: 36px; 
+        }
+
+        .content-section {
+        background-color: #f9f9f9;
+        padding: 40px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+
+        .content-section h2 {
+         color: #333;
+         font-size: 28px;
+         margin-top: 0;
+         margin-bottom: 20px;
+        }
+
+        .content-section h3 {
+         color: #2f04a6;
+         font-size: 24px;
+         margin-top: 30px;
+        }
+
+        .content-section ul {
+          margin-top: 10px;
+        }
+
+       .content-section li {
+        margin-bottom: 10px;
+        line-height: 1.6;
+       }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-text">
+                <img src="./Testbaby1.png" alt="Software as a service" class="logo">
+                <h1>TestRite</h1>
+                <p>Innovation & Technology</p>
+            </div>
+            <a href="Register.html" class="register-button">Register</a>
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about Us.html">About</a></li>
+                <li><a href="Our services.html">Services</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <div class="landing">
+        <h2>Transform Your Software Testing Approach</h2>
+        <p>Join TestRite Consulting and discover how we can optimize your QA engineering processes. Whether you're looking to enhance software quality or streamline test automation, we're here to help.</p>
+        <a href="Register.html" class="action-button">Get Started</a>
+    </div>
+
+    <div class="content-section">
+        <h2>Welcome to TestRite Consultancy</h2>
+        <p>At TestRite Consultancy, we specialize in providing expert consultation services tailored to meet the unique needs of your company's QA engineering roles. Whether you're looking to establish robust QA processes from scratch or optimize existing frameworks, our seasoned consultants are here to support you every step of the way.</p>
+    
+        <h3>Why Choose TestRite Consultancy?</h3>
+        <ul>
+            <li><strong>Expertise:</strong> Our consultants bring years of hands-on experience in QA engineering across diverse industries.</li>
+            <li><strong>Customized Solutions:</strong> We tailor our solutions to fit your specific needs and challenges, ensuring optimal results.</li>
+            <li><strong>Proven Track Record:</strong> We have successfully helped numerous companies enhance their QA processes, achieving higher levels of quality and efficiency.</li>
+        </ul>
+    </div>
+
+  
+</body>
+</html>
